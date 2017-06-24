@@ -22,6 +22,17 @@ Open in a browser by typing in it's ip address. Click the owncloud setup php fil
 
 If php5 isn't running, `chmod 775 setup-owncloud.php` the owncloud php or run through installing php5 again: https://askubuntu.com/questions/451708/php-script-not-executing-on-apache-server
 
+```
+sudo apt-get install apache2 php5 libapache2-mod-php5
+a2query -m php5
+sudo a2enmod php5
+sudo service apache2 restart
+```
+
+Try opening the script in browser again.
+
 ----
 
 https://www.pi-supply.com/make/build-your-own-cloud-storage-file-server-with-a-raspberry-pi/
+
+Verified running on Pi 1 model B.
