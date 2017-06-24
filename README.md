@@ -2,7 +2,7 @@
 
 ## DIY selfhosted Dropbox
 
-Use these instructions to install the Owncloud server:
+Use these instructions to install the Owncloud server (record all your accounts and passwords):
 
 https://www.pi-supply.com/make/build-your-own-cloud-storage-file-server-with-a-raspberry-pi/
 
