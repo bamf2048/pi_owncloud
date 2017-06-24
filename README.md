@@ -2,16 +2,11 @@
 
 ## DIY selfhosted Dropbox
 
-Use these instructions to install the Owncloud server (record all your accounts and passwords):
+Use these instructions to install the Owncloud server (record all your accounts and passwords). Set your mysql password when prompted. Customize `newuser`, `password` and `database_name`.
 
 ```
 sudo apt-get update; sudo apt-get upgrade -y
 sudo apt-get install apache2 php5 php5-fpm php5-gd php5-curl php5-mysql mysql-server -y
-```
-
-Set your mysql password when prompted. Customize `newuser`, `password` and `database_name`.
-
-```
 sudo service apache2 restart
 cd /var/www/html; ls
 sudo rm index.html
